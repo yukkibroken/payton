@@ -114,6 +114,10 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name/oem
 $(call inherit-product, build/target/product/verity.mk)
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit from motorola sdm660-common
 $(call inherit-product, device/motorola/sdm660-common/common.mk)
 
