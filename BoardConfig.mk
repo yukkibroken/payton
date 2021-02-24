@@ -30,7 +30,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
+TARGET_KERNEL_CONFIG := cybertron_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/touch.xml
