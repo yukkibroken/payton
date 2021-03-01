@@ -25,6 +25,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Device
 $(call inherit-product, device/motorola/payton/device.mk)
 
+# Ancient Official
+ANCIENT_OFFICIAL := true
+FORCE_OTA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # A/B updater
 AB_OTA_UPDATER := true
 
