@@ -18,7 +18,9 @@
 $(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-ancient
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
