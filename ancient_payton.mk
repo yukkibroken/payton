@@ -30,6 +30,9 @@ ANCIENT_OFFICIAL := true
 FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+#Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # A/B updater
 AB_OTA_UPDATER := true
 
