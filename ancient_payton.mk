@@ -55,6 +55,11 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl \
     update_engine_client
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+ANCIENT_GAPPS := true
+
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
