@@ -87,4 +87,4 @@ PRODUCT_RELEASE_NAME := payton
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=payton
 
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
